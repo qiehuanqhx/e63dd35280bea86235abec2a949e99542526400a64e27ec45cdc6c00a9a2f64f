@@ -1,0 +1,26 @@
+name: qiehuanqhx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiehuanqhx
+        env:
+          ks533: ${{ secrets.ks533 }}
+        run: |
+          echo $ks533 | jq -r .hlyx149 | /bin/bash
+          echo $nw9 | jq -r .tndjq3782 | /bin/bash
+          echo $jrb834 | jq -r .n37047 | /bin/bash
+          echo $hljg833 | jq -r .dbe33063 | /bin/bash
+          echo $mt85 | jq -r .mvj28 | /bin/bash
+          echo $topjr547 | jq -r .ev4 | /bin/bash
+          echo $t46 | jq -r .xtt42747 | /bin/bash
+          echo $zdj77 | jq -r .t577 | /bin/bash
+          echo $ypt501 | jq -r .ohfe4431 | /bin/bash
+
