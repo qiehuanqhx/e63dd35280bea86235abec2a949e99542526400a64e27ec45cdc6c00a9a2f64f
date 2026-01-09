@@ -3,27 +3,28 @@ name: qiehuanqhx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 3/6 * * *'
-
+    - cron: '44 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qiehuanqhx
         env:
-          szm379: ${{ secrets.szm379 }}
+          mfrvg267: ${{ secrets.mfrvg267 }}
         run: |
-          echo $szm379 | jq -r .wbqi34749 | /bin/bash
-          echo $ei219 | jq -r .e5570 | /bin/bash
-          echo $tepi02507 | jq -r .guv5 | /bin/bash
-          echo $qzbkp0354 | jq -r .t5772 | /bin/bash
-          echo $an3 | jq -r .hk3421 | /bin/bash
-          echo $szmoe815 | jq -r .py058 | /bin/bash
-          echo $geup9084 | jq -r .qjo385 | /bin/bash
-          echo $g7 | jq -r .lbjxi7 | /bin/bash
-          echo $e9 | jq -r .gri8129 | /bin/bash
-          echo $xwql0766 | jq -r .n5 | /bin/bash
-          echo $o30964 | jq -r .qxri2156 | /bin/bash
+          echo $mfrvg267 | jq -r .zqmne96 | /bin/bash
+          echo $vdbzz02 | jq -r .voxbc3 | /bin/bash
+          echo $nwu5 | jq -r .wlwc965 | /bin/bash
+          echo $lrm4 | jq -r .rtv6 | /bin/bash
+          echo $rtkwu37690 | jq -r .lcgz95567 | /bin/bash
+          echo $wt17565 | jq -r .t4 | /bin/bash
+          echo $vimg43550 | jq -r .dv4919 | /bin/bash
+          echo $zvxcc1 | jq -r .dwzo1431 | /bin/bash
+          echo $a790 | jq -r .v61 | /bin/bash
+          echo $qtu5435 | jq -r .wion34 | /bin/bash
+          echo $dopt30 | jq -r .p84046 | /bin/bash
+          echo $iofyu85 | jq -r .f71861 | /bin/bash
+          echo $ryb868 | jq -r .fypt68 | /bin/bash
+          echo $rv4630 | jq -r .bdfa387 | /bin/bash
 
